@@ -1,0 +1,61 @@
+/* Algemene instellingen */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Titel */
+h1 {
+    background-color: #0078d7;
+    color: white;
+    padding: 20px 0;
+    margin: 0 0 20px 0;
+    font-size: 2em;
+}
+
+/* Paragrafen */
+p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* Algemene afbeelding */
+img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin-top: 10px;
+}
+
+/* Foto’s met bijschrift */
+figure {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Responsief ontwerp voor kleine schermen */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    figure {
+        margin: 10px;
+    }
+}
