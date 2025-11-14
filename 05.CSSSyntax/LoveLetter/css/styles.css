@@ -1,0 +1,38 @@
+p {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+body {
+  background-color: #fffdf8;
+  background-image: url("../img/tile.png"); /* hartjes */
+  background-size: 250px;       /* maak de hartjes wat kleiner */
+  background-repeat: repeat;
+  background-position: center;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.2rem;
+  color: #272727;
+  line-height: 1.6;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* briefpapier met bloemen */
+main {
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;     /* zorgt dat afbeelding niet uitrekt */
+  background-position: center top;
+  background-color: #fffaf2;    /* vult witruimte op */
+
+  padding: 140px 60px 120px;    /* binnenruimte zodat tekst binnen de rand blijft */
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  
+  width: 200px;                 /* vaste breedte */
+  min-height: 500px;            /* vaste hoogte (afhankelijk van afbeelding) */
+  text-align: left;
+}
